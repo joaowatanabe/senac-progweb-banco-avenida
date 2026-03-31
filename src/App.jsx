@@ -97,7 +97,7 @@ function App() {
           onSubmit={handleSubmit(verificarEmprestimo)}
         >
           <label htmlFor="nomeCliente">Nome do Cliente:</label>
-          <input id="nomeCliente" {...register("nomeCliente")} />
+          <input id="nomeCliente" {...register("nomeCliente")} required/>
 
           <label htmlFor="salario">Salário:</label>
           <input

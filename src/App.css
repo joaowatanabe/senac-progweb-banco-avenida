@@ -272,6 +272,7 @@
 }
 
 .resultado {
+  margin-bottom: 20px;
   margin-top: 8px;
   max-width: 450px;
   padding: 16px;
